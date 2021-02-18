@@ -2,7 +2,7 @@ import "./App.css";
 import { Header, Home, Checkout } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-const tijd = "1.05.53";
+const tijd = "1.59.30";
 
 function App() {
   return (
