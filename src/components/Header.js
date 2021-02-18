@@ -15,12 +15,12 @@ export default function Header() {
       </div>
       <div className='header__nav'>
         <div className='header__option'>
-          <span className='header__optionLineOne'>Hello user</span>
+          <span className='header__optionLineOne'>Hello</span>
           <span className='header__optionLineTwo'>Sign in</span>
         </div>
         <div className='header__option'>
           <span className='header__optionLineOne'>Returns</span>
-          <span className='header__optionLineTwo'>Orders</span>
+          <span className='header__optionLineTwo'>& Orders</span>
         </div>
         <div className='header__option'>
           <span className='header__optionLineOne'>Your</span>
