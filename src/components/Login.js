@@ -15,9 +15,20 @@ export default function Login() {
       <div className='login__container'>
         <h1>Sign-in</h1>
         <form>
-          <h5>Email</h5>
-          <input />
+          <h5>E-mail</h5>
+          <input type='text' />
+          <h5>Password</h5>
+          <input type='password' />
+          <button className='login__signInButton'>Sign in</button>
         </form>
+        <p>
+          By signing-in you agree to AMAZON FAKE CLONE Conditions of Use & Sale.
+          Please see our Pirvacy Notice, our Cookies Notice and our
+          Internet-Based Ads Notice
+        </p>
+        <button className='login__registerButton'>
+          Create your Amazon account
+        </button>
       </div>
     </div>
   );
