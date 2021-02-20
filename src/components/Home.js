@@ -21,7 +21,7 @@ export default function Home() {
         />
         <Product
           id='2'
-          title='Macbook pro 2020 M1'
+          title='Macbook pro 2020 with the new M1 Silicon chip'
           price={1898}
           image='https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-spacegray-select-202011?wid=892&hei=820&&qlt=80&.v=1603406905000'
           rating={5}
@@ -29,34 +29,34 @@ export default function Home() {
       </div>
       <div className='home__row'>
         <Product
-          id='1'
-          title='The lean startup'
-          price={12.99}
-          image='https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Lean_Startup.png/220px-Lean_Startup.png'
-          rating={3}
-        />
-        <Product
-          id='2'
-          title='Macbook pro 2020 M1'
-          price={1898}
-          image='https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp-spacegray-select-202011?wid=892&hei=820&&qlt=80&.v=1603406905000'
+          id='3'
+          title='Apple Smartwatch 41mm with bluetooth and voice assistant'
+          price={599.99}
+          image='https://media.s-bol.com/qjV6w6ZBLrk3/550x676.jpg'
           rating={5}
         />
         <Product
-          id='1'
-          title='The lean startup'
-          price={12.99}
-          image='https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Lean_Startup.png/220px-Lean_Startup.png'
+          id='4'
+          title='Studio Headphones for great audio quality'
+          price={98.95}
+          image='https://images-na.ssl-images-amazon.com/images/I/41srzfxYpXL._AC_.jpg'
           rating={3}
+        />
+        <Product
+          id='5'
+          title='TechNet keyboard for professional use'
+          price={143.0}
+          image='https://media.s-bol.com/grDDRn1xv9D/550x392.jpg'
+          rating={2}
         />
       </div>
       <div className='home__row'>
         <Product
-          id='1'
-          title='The lean startup'
-          price={12.99}
-          image='https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Lean_Startup.png/220px-Lean_Startup.png'
-          rating={3}
+          id='6'
+          title='Magic Mous for desktop'
+          price={86.9}
+          image='https://shop.sansoftcomputers.nl/media/image/541/gigabyte-m5050-curvy-optical-mous-muis.jpg'
+          rating={4}
         />
       </div>
     </div>

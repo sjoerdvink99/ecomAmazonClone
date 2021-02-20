@@ -5,7 +5,7 @@ import "./App.css";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 
-const tijd = "4.23.14";
+const tijd = "4.41.14";
 
 function App() {
   const [{}, dispatch] = useStateValue();
