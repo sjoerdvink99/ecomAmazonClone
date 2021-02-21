@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import { Header, Home, Checkout, Login } from "./components";
+import { Header, Home, Checkout, Login, Payment } from "./components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
 
-const tijd = "4.41.14";
+const tijd = "5.44.00";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -36,6 +36,10 @@ function App() {
           <Route path='/checkout'>
             <Header />
             <Checkout />
+          </Route>
+          <Route path='/payment'>
+            <Header />
+            <Payment />
           </Route>
           <Route path='/'>
             <Header />
